@@ -112,7 +112,9 @@ function distance(x1, y1, x2, y2) {
 
 function tipCalc(bill, tipPercent) {
   // Write your code here
-
+  let tip = bill * (tipPercent / 100);
+  let total = bill + tip;
+  return total.toFixed(2);
 }
 
 
