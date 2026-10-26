@@ -19,7 +19,7 @@
 
 function greet(name) {
   // Write your code here
-
+  return "Hello, " + name + "!";
 }
 
 
