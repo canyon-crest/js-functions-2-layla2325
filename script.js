@@ -35,11 +35,12 @@ function greet(name) {
 // STEP 3: Return the new count value.
 //         First click → returns 1, second → returns 2, etc.
 
-
+let count = 0;
 
 function myFunc() {
   // Write your code here
-
+  count = count + 1;
+  return count;
 }
 
 
